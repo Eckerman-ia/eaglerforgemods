@@ -1,6 +1,6 @@
 (() => {
     ModAPI.require("settings");
-    var oldFPS = 60;
+    var oldFPS = 1;
     function fcs(){
         if(ModAPI.settings != null){
             if(ModAPI.settings.limitFramerate != null){
