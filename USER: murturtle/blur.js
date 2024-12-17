@@ -14,7 +14,7 @@
         if(ModAPI.settings != null){
             if(ModAPI.settings.limitFramerate != null){
                 oldFPS = ModAPI.settings.limitFramerate;
-                ModAPI.settings.limitFramerate = 5;
+                ModAPI.settings.limitFramerate = 165;
                 ModAPI.settings.reload();
             }
         }
